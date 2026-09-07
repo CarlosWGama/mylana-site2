@@ -7,12 +7,22 @@
    Tablets e Telas Médias (max-width: 992px)
    -------------------------------------------------------------------------- */
 @media screen and (max-width: 992px) {
-  .hero-container {
-    gap: 2.5rem;
+  .hero-section {
+    min-height: auto;
+    padding: 4.5rem 0 5rem 0;
+  }
+
+  .hero-bg-image {
+    background-position: right 5% center;
+    opacity: 0.60;
+  }
+
+  .hero-content-wrapper {
+    max-width: 580px;
   }
 
   .hero-title {
-    font-size: 2.4rem;
+    font-size: 2.5rem;
   }
 
   .address-container {
@@ -62,13 +72,22 @@
     width: 100%;
   }
 
-  /* 2. Hero Section - ORDENAÇÃO ESTREITA NO MOBILE:
-     1º Foto da Doutora
-     2º Descrição (Texto Corrido de Apresentação)
-     3º Logo da Doutora
-  -------------------------------------------------------------------------- */
+  /* 2. Hero Section Modernizada no Mobile */
   .hero-section {
-    padding: 3rem 0 3.5rem 0;
+    padding: 3.5rem 0 4rem 0;
+    min-height: auto;
+  }
+
+  .hero-bg-image {
+    background-position: center top 15%;
+    opacity: 0.38;
+  }
+
+  .hero-bg-overlay {
+    background: linear-gradient(to bottom, 
+      rgba(48, 83, 89, 0.94) 0%, 
+      rgba(48, 83, 89, 0.88) 50%, 
+      #305359 100%);
   }
 
   .hero-container {
@@ -76,61 +95,50 @@
     flex-direction: column !important;
     align-items: center !important;
     text-align: center !important;
-    gap: 2rem !important;
   }
 
-  /* 1º Lugar: Foto da Doutora */
-  .hero-photo-wrapper {
-    order: 1 !important;
+  .hero-content-wrapper {
     width: 100%;
-    max-width: 320px;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
   }
 
-  .hero-photo-frame {
-    max-width: 300px;
+  .hero-brand {
+    margin-bottom: 1rem;
+  }
+
+  .hero-logo-floating {
+    max-width: 180px;
     margin: 0 auto;
   }
 
-  /* 2º Lugar: Apresentação (Texto Corrido) */
-  .hero-content-wrapper {
-    order: 2 !important;
-    width: 100%;
-    align-items: center;
-  }
-
-  .hero-badge-tag {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .hero-title {
-    font-size: 2.15rem;
+    font-size: 2.2rem;
     text-align: center;
+  }
+
+  .hero-badges {
+    justify-content: center;
+    margin-bottom: 1.35rem;
   }
 
   .hero-text {
     text-align: left;
     font-size: 1rem;
-    line-height: 1.7;
+    line-height: 1.75;
   }
 
   .hero-actions {
     justify-content: center;
     width: 100%;
+    margin-top: 0.5rem;
   }
 
-  .hero-actions .btn {
+  .btn-hero-cta {
     width: 100%;
     max-width: 320px;
-  }
-
-  /* 3º Lugar: Logo da Doutora */
-  .hero-logo-wrapper {
-    order: 3 !important;
-    width: 100%;
-    display: flex;
     justify-content: center;
-    margin-top: 0.5rem;
   }
 
   /* 3. Seção Atendimento - Empilhamento Vertical de Cards */
@@ -248,8 +256,22 @@
    Pequenos Smartphones (max-width: 420px)
    -------------------------------------------------------------------------- */
 @media screen and (max-width: 420px) {
+  .hero-logo-floating {
+    max-width: 155px;
+  }
+
   .hero-title {
     font-size: 1.85rem;
+  }
+
+  .hero-badge-pill {
+    font-size: 0.78rem;
+    padding: 0.3rem 0.75rem;
+  }
+
+  .btn-hero-cta {
+    padding: 0.8rem 1.4rem;
+    font-size: 0.95rem;
   }
 
   .section-title {
