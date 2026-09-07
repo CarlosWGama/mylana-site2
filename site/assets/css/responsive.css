@@ -277,11 +277,6 @@
     gap: 2rem !important;
   }
 
-  /* FOTO DA DOUTORA OCULTA NO MOBILE */
-  .footer-col-photo {
-    display: none !important;
-  }
-
   .footer-col-content {
     width: 100% !important;
     align-items: center;
