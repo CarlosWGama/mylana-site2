@@ -30,11 +30,11 @@ The website MUST be constructed strictly using native web standards: HTML5, CSS3
 ### III. Strict Single-Page Directory & Asset Structure
 The project MUST follow a single-page landing layout centered on `index.html` at the root directory. All project assets MUST be organized strictly into the standard subdirectory structure:
 ```text
-index.html
-/assets
-  /css/
-  /js/
-  /img/
+/site/index.html
+/site/assets
+/site/assets/css/
+/site/assets/js/
+/site/assets/img/
 ```
 
 ### IV. Brand Color Palette & Responsive Visual Consistency
@@ -50,10 +50,10 @@ The site MUST be structured with search engine optimization (SEO) best practices
 
 1. **Tech Stack**: Vanilla HTML5, Vanilla CSS3, Vanilla JavaScript (ES6+).
 2. **File Organization**:
-   - `index.html` (Single-page document)
-   - `assets/css/` (Modular or main stylesheet)
-   - `assets/js/` (Deferred/end-of-body scripts)
-   - `assets/img/` (Optimized images and graphical assets)
+   - `site/index.html` (Single-page document)
+   - `site/assets/css/` (Modular or main stylesheet)
+   - `site/assets/js/` (Deferred/end-of-body scripts)
+   - `site/assets/img/` (Optimized images and graphical assets)
 3. **Color Palette**:
    - `#ffffff` (White - Backgrounds & clean contrast)
    - `#305359` (Teal - Primary brand color, headers, CTAs, accents)
