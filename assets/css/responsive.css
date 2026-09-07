@@ -1,0 +1,263 @@
+/* ==========================================================================
+   Dra. Mylana Gama - Neurologista | Estilos Responsivos (responsive.css)
+   Regras de Flexbox, Ordenação Mobile e Ocultação de Elementos
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Tablets e Telas Médias (max-width: 992px)
+   -------------------------------------------------------------------------- */
+@media screen and (max-width: 992px) {
+  .hero-container {
+    gap: 2.5rem;
+  }
+
+  .hero-title {
+    font-size: 2.4rem;
+  }
+
+  .address-container {
+    gap: 2.5rem;
+  }
+
+  .footer-grid {
+    gap: 2rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Dispositivos Móveis / Celulares (max-width: 768px)
+   -------------------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  
+  /* 1. Navegação & Cabeçalho Mobile */
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .site-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-white);
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid var(--color-primary);
+  }
+
+  .site-nav.active {
+    display: flex;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .btn-header-cta {
+    width: 100%;
+  }
+
+  /* 2. Hero Section - ORDENAÇÃO ESTREITA NO MOBILE:
+     1º Foto da Doutora
+     2º Descrição (Texto Corrido de Apresentação)
+     3º Logo da Doutora
+  -------------------------------------------------------------------------- */
+  .hero-section {
+    padding: 3rem 0 3.5rem 0;
+  }
+
+  .hero-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 2rem !important;
+  }
+
+  /* 1º Lugar: Foto da Doutora */
+  .hero-photo-wrapper {
+    order: 1 !important;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .hero-photo-frame {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  /* 2º Lugar: Apresentação (Texto Corrido) */
+  .hero-content-wrapper {
+    order: 2 !important;
+    width: 100%;
+    align-items: center;
+  }
+
+  .hero-badge-tag {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-title {
+    font-size: 2.15rem;
+    text-align: center;
+  }
+
+  .hero-text {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .hero-actions {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  /* 3º Lugar: Logo da Doutora */
+  .hero-logo-wrapper {
+    order: 3 !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+
+  /* 3. Seção Atendimento - Empilhamento Vertical de Cards */
+  .attendance-section {
+    padding: 3.5rem 0;
+  }
+
+  .attendance-cards-grid {
+    flex-direction: column !important;
+    gap: 1.75rem !important;
+  }
+
+  .attendance-card {
+    max-width: 100% !important;
+    padding: 2rem 1.5rem !important;
+  }
+
+  .attendance-card-title {
+    font-size: 1.55rem;
+  }
+
+  /* 4. Seção Endereço - Empilhamento Vertical */
+  .clinic-address-section {
+    padding: 3.5rem 0;
+  }
+
+  .address-container {
+    flex-direction: column !important;
+    gap: 2rem !important;
+  }
+
+  .address-info-col {
+    width: 100% !important;
+    text-align: center !important;
+    align-items: center !important;
+  }
+
+  .address-main-title {
+    font-size: 2rem;
+  }
+
+  .address-map-col {
+    width: 100% !important;
+  }
+
+  .map-card-frame {
+    height: 300px !important;
+  }
+
+  /* 5. Seção Agendamento - Empilhamento Vertical */
+  .booking-section {
+    padding: 3.5rem 0;
+  }
+
+  .booking-cards-grid {
+    flex-direction: column !important;
+    gap: 1.75rem !important;
+  }
+
+  .booking-card {
+    max-width: 100% !important;
+    padding: 2rem 1.5rem !important;
+  }
+
+  .phone-contact-pill {
+    flex-direction: column;
+    gap: 0.35rem;
+    text-align: center;
+  }
+
+  /* 6. Rodapé / Footer - REGRA DE OCULTAÇÃO DA FOTO NO MOBILE:
+     - Foto da doutora (Parte 1) NÃO deve ser exibida no mobile
+     - Parte 2 expande para 100%
+  -------------------------------------------------------------------------- */
+  .site-footer {
+    padding: 3.5rem 0 2rem 0;
+  }
+
+  .footer-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center;
+    gap: 2rem !important;
+  }
+
+  /* FOTO DA DOUTORA OCULTA NO MOBILE */
+  .footer-col-photo {
+    display: none !important;
+  }
+
+  .footer-col-content {
+    width: 100% !important;
+    align-items: center;
+  }
+
+  .footer-contacts-list {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .footer-contact-card {
+    width: 100%;
+    max-width: 340px;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .footer-bottom-bar {
+    margin-top: 2.5rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Pequenos Smartphones (max-width: 420px)
+   -------------------------------------------------------------------------- */
+@media screen and (max-width: 420px) {
+  .hero-title {
+    font-size: 1.85rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .btn {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.95rem;
+  }
+}

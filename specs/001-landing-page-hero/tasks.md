@@ -6,9 +6,9 @@
 
 **Purpose**: Project initialization and directory/asset setup
 
-- [ ] T001 Create project directory structure (`assets/css/`, `assets/js/`, `assets/img/`, `assets/src/fonts/`)
-- [ ] T002 [P] Copy image assets `modelos/capa.jpg` and `modelos/logo.png` to `assets/img/`
-- [ ] T003 [P] Setup self-hosted web font files (Montserrat / Inter) in `assets/src/fonts/`
+- [X] T001 Create project directory structure (`assets/css/`, `assets/js/`, `assets/img/`, `assets/src/fonts/`)
+- [X] T002 [P] Copy image assets `modelos/capa.jpg` and `modelos/logo.png` to `assets/img/`
+- [X] T003 [P] Setup self-hosted web font files (Montserrat / Inter) in `assets/src/fonts/`
 
 ---
 
@@ -18,9 +18,9 @@
 
 **⚠️ CRITICAL**: Foundational styling and assets MUST be ready before user story implementation begins
 
-- [ ] T004 Create base stylesheet `assets/css/style.css` with CSS custom properties (`--color-primary: #305359`, `--color-background: #ffffff`, `--color-background-soft: #f4f6f8`), `@font-face` definitions pointing to `assets/src/fonts/`, CSS reset, and typography rules
-- [ ] T005 [P] Create responsive stylesheet `assets/css/responsive.css` with media query skeleton and breakpoint tokens
-- [ ] T006 [P] Create initial JavaScript file `assets/js/main.js` with DOMContentLoaded event listener and performance-optimized execution
+- [X] T004 Create base stylesheet `assets/css/style.css` with CSS custom properties (`--color-primary: #305359`, `--color-background: #ffffff`, `--color-background-soft: #f4f6f8`), `@font-face` definitions pointing to `assets/src/fonts/`, CSS reset, and typography rules
+- [X] T005 [P] Create responsive stylesheet `assets/css/responsive.css` with media query skeleton and breakpoint tokens
+- [X] T006 [P] Create initial JavaScript file `assets/js/main.js` with DOMContentLoaded event listener and performance-optimized execution
 
 **Checkpoint**: Foundation ready — user story implementation can now begin
 
@@ -34,9 +34,9 @@
 
 ### Implementation for User Story 1
 
-- [ ] T007 [US1] Create `index.html` root document with semantic HTML5 skeleton, meta viewport, and top header containing `assets/img/logo.png` inside a high-contrast container
-- [ ] T008 [US1] Implement hero section container (`<section id="hero" class="hero-section">`) and portrait wrapper with `assets/img/capa.jpg` in `index.html`
-- [ ] T009 [US1] Style header navigation, logo container, and hero visual framing in `assets/css/style.css`
+- [X] T007 [US1] Create `index.html` root document with semantic HTML5 skeleton, meta viewport, and top header containing `assets/img/logo.png` inside a high-contrast container
+- [X] T008 [US1] Implement hero section container (`<section id="hero" class="hero-section">`) and portrait wrapper with `assets/img/capa.jpg` in `index.html`
+- [X] T009 [US1] Style header navigation, logo container, and hero visual framing in `assets/css/style.css`
 
 **Checkpoint**: User Story 1 is visually functional and testable independently
 
@@ -50,9 +50,9 @@
 
 ### Implementation for User Story 2
 
-- [ ] T010 [US2] Add continuous narrative presentation paragraphs and credential tag (`CRM-AL 7100 | RQE 4871`) to the hero content block in `index.html`
-- [ ] T011 [US2] Add primary call-to-action button (`Agendar Consulta`) pointing to `#agendamento` in `index.html`
-- [ ] T012 [US2] Style hero narrative typography, high-contrast light text, credential tag, and CTA button in `assets/css/style.css`
+- [X] T010 [US2] Add continuous narrative presentation paragraphs and credential tag (`CRM-AL 7100 | RQE 4871`) to the hero content block in `index.html`
+- [X] T011 [US2] Add primary call-to-action button (`Agendar Consulta`) pointing to `#agendamento` in `index.html`
+- [X] T012 [US2] Style hero narrative typography, high-contrast light text, credential tag, and CTA button in `assets/css/style.css`
 
 **Checkpoint**: User Stories 1 AND 2 are complete, delivering a comprehensive hero presentation
 
@@ -66,10 +66,10 @@
 
 ### Implementation for User Story 3
 
-- [ ] T013 [US3] Add Flexbox wrapper classes and secondary inline logo block for mobile sequence in `index.html`
-- [ ] T014 [US3] Implement Flexbox desktop layout (`flex-direction: row`, spacing, alignment) in `assets/css/style.css`
-- [ ] T015 [US3] Implement mobile media query rules (`flex-direction: column`, `order: 1` photo, `order: 2` description, `order: 3` logo) in `assets/css/responsive.css`
-- [ ] T016 [US3] Include `assets/js/main.js` at the bottom of `index.html` (before `</body>`) with deferred non-blocking execution for smooth interactions
+- [X] T013 [US3] Add Flexbox wrapper classes and secondary inline logo block for mobile sequence in `index.html`
+- [X] T014 [US3] Implement Flexbox desktop layout (`flex-direction: row`, spacing, alignment) in `assets/css/style.css`
+- [X] T015 [US3] Implement mobile media query rules (`flex-direction: column`, `order: 1` photo, `order: 2` description, `order: 3` logo) in `assets/css/responsive.css`
+- [X] T016 [US3] Include `assets/js/main.js` at the bottom of `index.html` (before `</body>`) with deferred non-blocking execution for smooth interactions
 
 **Checkpoint**: All user stories functional across desktop and mobile screens
 
@@ -79,9 +79,9 @@
 
 **Purpose**: Performance validation, SEO metadata, and cross-browser consistency
 
-- [ ] T017 [P] Add Open Graph meta tags, SEO description, title, canonical link, and language attributes in `index.html`
-- [ ] T018 Execute quickstart verification scenarios per `specs/001-landing-page-hero/quickstart.md` across mobile and desktop viewports
-- [ ] T019 Audit WCAG color contrast, font loading performance, and console error log in browser devtools
+- [X] T017 [P] Add Open Graph meta tags, SEO description, title, canonical link, and language attributes in `index.html`
+- [X] T018 Execute quickstart verification scenarios per `specs/001-landing-page-hero/quickstart.md` across mobile and desktop viewports
+- [X] T019 Audit WCAG color contrast, font loading performance, and console error log in browser devtools
 
 ---
 

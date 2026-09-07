@@ -1,0 +1,9 @@
+# Universal / OS files
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+
+# IDEs
+.vscode/
+.idea/

@@ -6,8 +6,8 @@
 
 **Purpose**: Prepare section anchor and CSS tokens
 
-- [ ] T001 Verify and prepare section anchor `#endereco` immediately following `#atendimento` in `index.html`
-- [ ] T002 [P] Define map and address design tokens (iframe radius, shadow, pin accent) in `assets/css/style.css`
+- [X] T001 Verify and prepare section anchor `#endereco` immediately following `#atendimento` in `index.html`
+- [X] T002 [P] Define map and address design tokens (iframe radius, shadow, pin accent) in `assets/css/style.css`
 
 ---
 
@@ -17,8 +17,8 @@
 
 **⚠️ CRITICAL**: Base section container must be established before content and iframe are styled
 
-- [ ] T003 Create base section container (`<section id="endereco" class="clinic-address-section">`) in `index.html`
-- [ ] T004 [P] Implement base address section layout container rules in `assets/css/style.css`
+- [X] T003 Create base section container (`<section id="endereco" class="clinic-address-section">`) in `index.html`
+- [X] T004 [P] Implement base address section layout container rules in `assets/css/style.css`
 
 **Checkpoint**: Foundation ready — address content and map can now be added
 
@@ -32,8 +32,8 @@
 
 ### Implementation for User Story 1
 
-- [ ] T005 [US1] Implement h1 "Endereço da clinica", h2 "Nubi Clinic", and address paragraph in `index.html`
-- [ ] T006 [US1] Style address typography, pin icon, and contrast styling in `assets/css/style.css`
+- [X] T005 [US1] Implement h1 "Endereço da clinica", h2 "Nubi Clinic", and address paragraph in `index.html`
+- [X] T006 [US1] Style address typography, pin icon, and contrast styling in `assets/css/style.css`
 
 **Checkpoint**: Address text and headings are fully functional and testable independently
 
@@ -47,9 +47,9 @@
 
 ### Implementation for User Story 2
 
-- [ ] T007 [US2] Add Google Maps iframe element with coordinates (`-9.6560216`, `-35.7097091`) and `loading="lazy"` in `index.html`
-- [ ] T008 [US2] Add "Traçar Rota no Google Maps" direct GPS link button in `index.html`
-- [ ] T009 [US2] Style map wrapper, iframe border-radius, elevation shadow, and route CTA button in `assets/css/style.css`
+- [X] T007 [US2] Add Google Maps iframe element with coordinates (`-9.6560216`, `-35.7097091`) and `loading="lazy"` in `index.html`
+- [X] T008 [US2] Add "Traçar Rota no Google Maps" direct GPS link button in `index.html`
+- [X] T009 [US2] Style map wrapper, iframe border-radius, elevation shadow, and route CTA button in `assets/css/style.css`
 
 **Checkpoint**: Address and interactive map are working together
 
@@ -63,8 +63,8 @@
 
 ### Implementation for User Story 3
 
-- [ ] T010 [US3] Implement desktop Flexbox rules (`display: flex; flex-direction: row; gap: 3rem; align-items: center;`) in `assets/css/style.css`
-- [ ] T011 [US3] Implement mobile media query rules (`flex-direction: column; width: 100%; gap: 2rem;`) in `assets/css/responsive.css`
+- [X] T010 [US3] Implement desktop Flexbox rules (`display: flex; flex-direction: row; gap: 3rem; align-items: center;`) in `assets/css/style.css`
+- [X] T011 [US3] Implement mobile media query rules (`flex-direction: column; width: 100%; gap: 2rem;`) in `assets/css/responsive.css`
 
 **Checkpoint**: Fully responsive layout across all device viewports
 
@@ -74,9 +74,9 @@
 
 **Purpose**: SEO validation, accessibility, and performance checks
 
-- [ ] T012 [P] Validate SEO NAP (Name, Address, Phone) data, local schema indicators, and accessibility `title` on iframe in `index.html`
-- [ ] T013 Execute quickstart validation scenarios per `specs/003-clinic-location/quickstart.md` across mobile and desktop
-- [ ] T014 Audit performance to confirm iframe lazy loading does not impact initial page paint
+- [X] T012 [P] Validate SEO NAP (Name, Address, Phone) data, local schema indicators, and accessibility `title` on iframe in `index.html`
+- [X] T013 Execute quickstart validation scenarios per `specs/003-clinic-location/quickstart.md` across mobile and desktop
+- [X] T014 Audit performance to confirm iframe lazy loading does not impact initial page paint
 
 ---
 

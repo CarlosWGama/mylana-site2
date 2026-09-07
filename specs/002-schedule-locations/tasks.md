@@ -6,8 +6,8 @@
 
 **Purpose**: Prepare the integration point and styling variables
 
-- [ ] T001 Verify and prepare attendance section integration point immediately following the `#hero` section in `index.html`
-- [ ] T002 [P] Define attendance design tokens (card background `#ffffff`, border, soft background `#f4f6f8`, shadow) in `assets/css/style.css`
+- [X] T001 Verify and prepare attendance section integration point immediately following the `#hero` section in `index.html`
+- [X] T002 [P] Define attendance design tokens (card background `#ffffff`, border, soft background `#f4f6f8`, shadow) in `assets/css/style.css`
 
 ---
 
@@ -17,8 +17,8 @@
 
 **⚠️ CRITICAL**: Base section and card styles must be in place before card contents are added
 
-- [ ] T003 Create base attendance section markup (`<section id="atendimento" class="attendance-section">`) with container, badge, and title in `index.html`
-- [ ] T004 [P] Implement base card styling (`.attendance-card`, `.attendance-cards-grid`, `.card-icon-badge`) in `assets/css/style.css`
+- [X] T003 Create base attendance section markup (`<section id="atendimento" class="attendance-section">`) with container, badge, and title in `index.html`
+- [X] T004 [P] Implement base card styling (`.attendance-card`, `.attendance-cards-grid`, `.card-icon-badge`) in `assets/css/style.css`
 
 **Checkpoint**: Foundation ready — card implementation can now proceed
 
@@ -32,8 +32,8 @@
 
 ### Implementation for User Story 1
 
-- [ ] T005 [US1] Implement Card 1 markup in `index.html` with title `Atendimento na Clínica <br/>Nubi Clinic` and schedule block (Terças-feiras, 08h às 12h, via agendamento)
-- [ ] T006 [US1] Style Card 1 typography, schedule highlight container, and badge in `assets/css/style.css`
+- [X] T005 [US1] Implement Card 1 markup in `index.html` with title `Atendimento na Clínica <br/>Nubi Clinic` and schedule block (Terças-feiras, 08h às 12h, via agendamento)
+- [X] T006 [US1] Style Card 1 typography, schedule highlight container, and badge in `assets/css/style.css`
 
 **Checkpoint**: Card 1 is fully functional and testable independently
 
@@ -47,8 +47,8 @@
 
 ### Implementation for User Story 2
 
-- [ ] T007 [US2] Implement Card 2 markup in `index.html` with title `Outros locais de atendimento` and list for Online/Domiciliar, Metropolitano (Maceió), and Santa Casa de Misericórdia de Maceió
-- [ ] T008 [US2] Style location list items, custom bullet points, and hospital tags in `assets/css/style.css`
+- [X] T007 [US2] Implement Card 2 markup in `index.html` with title `Outros locais de atendimento` and list for Online/Domiciliar, Metropolitano (Maceió), and Santa Casa de Misericórdia de Maceió
+- [X] T008 [US2] Style location list items, custom bullet points, and hospital tags in `assets/css/style.css`
 
 **Checkpoint**: Both Card 1 and Card 2 are complete and visually balanced
 
@@ -62,9 +62,9 @@
 
 ### Implementation for User Story 3
 
-- [ ] T009 [US3] Implement desktop Flexbox rules (`display: flex; flex-direction: row; gap: 2rem; align-items: stretch;`) in `assets/css/style.css`
-- [ ] T010 [US3] Implement mobile media query rules (`flex-direction: column; gap: 1.5rem;`) in `assets/css/responsive.css`
-- [ ] T011 [US3] Add direct booking action buttons on both cards with accessible touch targets and WhatsApp/phone anchors in `index.html`
+- [X] T009 [US3] Implement desktop Flexbox rules (`display: flex; flex-direction: row; gap: 2rem; align-items: stretch;`) in `assets/css/style.css`
+- [X] T010 [US3] Implement mobile media query rules (`flex-direction: column; gap: 1.5rem;`) in `assets/css/responsive.css`
+- [X] T011 [US3] Add direct booking action buttons on both cards with accessible touch targets and WhatsApp/phone anchors in `index.html`
 
 **Checkpoint**: Layout smoothly adapts across all screen widths
 
@@ -74,9 +74,9 @@
 
 **Purpose**: Accessibility, SEO, and layout validation
 
-- [ ] T012 [P] Validate semantic headings and SEO keyword integration (Maceió, Neurologia, Santa Casa, Metropolitano) in `index.html`
-- [ ] T013 Execute quickstart validation scenarios per `specs/002-schedule-locations/quickstart.md` across mobile and desktop viewports
-- [ ] T014 Audit WCAG color contrast and absence of horizontal overflow on mobile viewports
+- [X] T012 [P] Validate semantic headings and SEO keyword integration (Maceió, Neurologia, Santa Casa, Metropolitano) in `index.html`
+- [X] T013 Execute quickstart validation scenarios per `specs/002-schedule-locations/quickstart.md` across mobile and desktop viewports
+- [X] T014 Audit WCAG color contrast and absence of horizontal overflow on mobile viewports
 
 ---
 

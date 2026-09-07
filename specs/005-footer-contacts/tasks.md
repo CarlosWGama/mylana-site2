@@ -6,8 +6,8 @@
 
 **Purpose**: Prepare image asset and footer CSS tokens
 
-- [ ] T001 Copy doctor photo `modelos/contato.jpg` to `assets/img/contato.jpg`
-- [ ] T002 [P] Define footer tokens (`--footer-bg: #305359`, `--footer-text: #ffffff`, divider color) in `assets/css/style.css`
+- [X] T001 Copy doctor photo `modelos/contato.jpg` to `assets/img/contato.jpg`
+- [X] T002 [P] Define footer tokens (`--footer-bg: #305359`, `--footer-text: #ffffff`, divider color) in `assets/css/style.css`
 
 ---
 
@@ -17,8 +17,8 @@
 
 **⚠️ CRITICAL**: Base footer container and grid rules must be in place before columns are rendered
 
-- [ ] T003 Create base footer container (`<footer class="site-footer">`) closing the main layout in `index.html`
-- [ ] T004 [P] Implement base 12-column grid layout rules (`display: grid; grid-template-columns: repeat(12, 1fr);`) in `assets/css/style.css`
+- [X] T003 Create base footer container (`<footer class="site-footer">`) closing the main layout in `index.html`
+- [X] T004 [P] Implement base 12-column grid layout rules (`display: grid; grid-template-columns: repeat(12, 1fr);`) in `assets/css/style.css`
 
 **Checkpoint**: Foundation ready — footer columns can now be added
 
@@ -32,9 +32,9 @@
 
 ### Implementation for User Story 1
 
-- [ ] T005 [US1] Implement Part 1 markup in `index.html` with `assets/img/contato.jpg` inside `.footer-col-photo`
-- [ ] T006 [US1] Style Part 1 (4/12 column span, rounded corners, image fit) in `assets/css/style.css`
-- [ ] T007 [US1] Add mobile media query rule in `assets/css/responsive.css` to hide photo column (`.footer-col-photo { display: none; }`)
+- [X] T005 [US1] Implement Part 1 markup in `index.html` with `assets/img/contato.jpg` inside `.footer-col-photo`
+- [X] T006 [US1] Style Part 1 (4/12 column span, rounded corners, image fit) in `assets/css/style.css`
+- [X] T007 [US1] Add mobile media query rule in `assets/css/responsive.css` to hide photo column (`.footer-col-photo { display: none; }`)
 
 **Checkpoint**: Part 1 renders on desktop and hides on mobile screens
 
@@ -48,8 +48,8 @@
 
 ### Implementation for User Story 2
 
-- [ ] T008 [US2] Implement Part 2 markup in `index.html` with Instagram link (`https://www.instagram.com/mylanagama.neuro/`), email link (`mailto:mylanagama.neurologia@gmail.com`), and CRM-AL 7100 | RQE 4871
-- [ ] T009 [US2] Style contact items, social icons, and text typography in `assets/css/style.css`
+- [X] T008 [US2] Implement Part 2 markup in `index.html` with Instagram link (`https://www.instagram.com/mylanagama.neuro/`), email link (`mailto:mylanagama.neurologia@gmail.com`), and CRM-AL 7100 | RQE 4871
+- [X] T009 [US2] Style contact items, social icons, and text typography in `assets/css/style.css`
 
 **Checkpoint**: Both Part 1 and Part 2 are complete and visually balanced
 
@@ -63,8 +63,8 @@
 
 ### Implementation for User Story 3
 
-- [ ] T010 [US3] Implement bottom bar markup in `index.html` containing "Desenvolvido por CarlosWGama" below the 12-column grid
-- [ ] T011 [US3] Style footer bottom bar with divider line and centered typography in `assets/css/style.css`
+- [X] T010 [US3] Implement bottom bar markup in `index.html` containing "Desenvolvido por CarlosWGama" below the 12-column grid
+- [X] T011 [US3] Style footer bottom bar with divider line and centered typography in `assets/css/style.css`
 
 **Checkpoint**: Full footer layout complete with contacts and developer credits
 
@@ -74,9 +74,9 @@
 
 **Purpose**: Security, accessibility, and visual quality
 
-- [ ] T012 [P] Validate security attributes (`target="_blank" rel="noopener noreferrer"`) on Instagram link in `index.html`
-- [ ] T013 Execute quickstart validation scenarios per `specs/005-footer-contacts/quickstart.md` across mobile and desktop
-- [ ] T014 Audit WCAG contrast ratio on footer text and links (> 7:1)
+- [X] T012 [P] Validate security attributes (`target="_blank" rel="noopener noreferrer"`) on Instagram link in `index.html`
+- [X] T013 Execute quickstart validation scenarios per `specs/005-footer-contacts/quickstart.md` across mobile and desktop
+- [X] T014 Audit WCAG contrast ratio on footer text and links (> 7:1)
 
 ---
 

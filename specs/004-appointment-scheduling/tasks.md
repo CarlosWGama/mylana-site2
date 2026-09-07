@@ -6,8 +6,8 @@
 
 **Purpose**: Prepare section anchor and CSS tokens
 
-- [ ] T001 Verify and prepare section anchor `#agendamento` immediately following `#endereco` in `index.html`
-- [ ] T002 [P] Define scheduling design tokens (priority badge, WhatsApp brand colors, card border) in `assets/css/style.css`
+- [X] T001 Verify and prepare section anchor `#agendamento` immediately following `#endereco` in `index.html`
+- [X] T002 [P] Define scheduling design tokens (priority badge, WhatsApp brand colors, card border) in `assets/css/style.css`
 
 ---
 
@@ -17,8 +17,8 @@
 
 **⚠️ CRITICAL**: Base section container must be established before channels are styled
 
-- [ ] T003 Create base section container (`<section id="agendamento" class="booking-section">`) with header badge and title in `index.html`
-- [ ] T004 [P] Implement base card styling rules for `.booking-card` and `.booking-cards-grid` in `assets/css/style.css`
+- [X] T003 Create base section container (`<section id="agendamento" class="booking-section">`) with header badge and title in `index.html`
+- [X] T004 [P] Implement base card styling rules for `.booking-card` and `.booking-cards-grid` in `assets/css/style.css`
 
 **Checkpoint**: Foundation ready — booking channel cards can now be added
 
@@ -32,8 +32,8 @@
 
 ### Implementation for User Story 1
 
-- [ ] T005 [US1] Implement Channel 1 markup in `index.html` with "Canal Prioritário" badge, phone `(82) 9 9399-9600`, consultation scope text, and WhatsApp CTA link `https://wa.me/558293999600`
-- [ ] T006 [US1] Style Channel 1 priority card, badge, WhatsApp button, and contact info in `assets/css/style.css`
+- [X] T005 [US1] Implement Channel 1 markup in `index.html` with "Canal Prioritário" badge, phone `(82) 9 9399-9600`, consultation scope text, and WhatsApp CTA link `https://wa.me/558293999600`
+- [X] T006 [US1] Style Channel 1 priority card, badge, WhatsApp button, and contact info in `assets/css/style.css`
 
 **Checkpoint**: Nubi Clinic WhatsApp priority channel is fully functional and testable independently
 
@@ -47,8 +47,8 @@
 
 ### Implementation for User Story 2
 
-- [ ] T007 [US2] Implement Channel 2 markup in `index.html` with Doctoralia title, description, weekly slot availability advisory, and profile CTA link `https://www.doctoralia.com.br/mylana-dandara-pereira-gama/neurologista/maceio`
-- [ ] T008 [US2] Style Doctoralia card, availability notice box, and button in `assets/css/style.css`
+- [X] T007 [US2] Implement Channel 2 markup in `index.html` with Doctoralia title, description, weekly slot availability advisory, and profile CTA link `https://www.doctoralia.com.br/mylana-dandara-pereira-gama/neurologista/maceio`
+- [X] T008 [US2] Style Doctoralia card, availability notice box, and button in `assets/css/style.css`
 
 **Checkpoint**: Both channels are complete and clearly differentiated
 
@@ -62,9 +62,9 @@
 
 ### Implementation for User Story 3
 
-- [ ] T009 [US3] Implement desktop Flexbox rules (`display: flex; flex-direction: row; gap: 2rem; align-items: stretch;`) in `assets/css/style.css`
-- [ ] T010 [US3] Implement mobile media query rules (`flex-direction: column; width: 100%; gap: 1.5rem;`) in `assets/css/responsive.css`
-- [ ] T011 [US3] Ensure smooth-scroll navigation from hero and header CTA buttons to `#agendamento` in `assets/js/main.js`
+- [X] T009 [US3] Implement desktop Flexbox rules (`display: flex; flex-direction: row; gap: 2rem; align-items: stretch;`) in `assets/css/style.css`
+- [X] T010 [US3] Implement mobile media query rules (`flex-direction: column; width: 100%; gap: 1.5rem;`) in `assets/css/responsive.css`
+- [X] T011 [US3] Ensure smooth-scroll navigation from hero and header CTA buttons to `#agendamento` in `assets/js/main.js`
 
 **Checkpoint**: Responsive dual-channel layout functional on all screen sizes
 
@@ -74,9 +74,9 @@
 
 **Purpose**: Security, accessibility, and navigation consistency
 
-- [ ] T012 [P] Validate security attributes (`target="_blank" rel="noopener noreferrer"`) on external WhatsApp and Doctoralia links in `index.html`
-- [ ] T013 Execute quickstart validation scenarios per `specs/004-appointment-scheduling/quickstart.md`
-- [ ] T014 Audit WCAG contrast on all buttons, badges, and text elements
+- [X] T012 [P] Validate security attributes (`target="_blank" rel="noopener noreferrer"`) on external WhatsApp and Doctoralia links in `index.html`
+- [X] T013 Execute quickstart validation scenarios per `specs/004-appointment-scheduling/quickstart.md`
+- [X] T014 Audit WCAG contrast on all buttons, badges, and text elements
 
 ---
 
