@@ -29,6 +29,12 @@
     gap: 2.5rem;
   }
 
+  /* Seção Áreas de Atuação - 2 cards por linha em tablets */
+  .area-card {
+    flex: 0 1 calc(50% - 0.75rem);
+    max-width: calc(50% - 0.75rem);
+  }
+
   .footer-grid {
     gap: 2rem;
   }
@@ -139,6 +145,21 @@
     width: 100%;
     max-width: 320px;
     justify-content: center;
+  }
+
+  /* 2.5. Seção Áreas de Atuação - 1 card por linha no mobile */
+  .areas-section {
+    padding: 3.5rem 0;
+  }
+
+  .areas-grid {
+    gap: 1.25rem;
+  }
+
+  .area-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding: 1.5rem 1.25rem;
   }
 
   /* 3. Seção Atendimento - Empilhamento Vertical de Cards */
@@ -276,6 +297,18 @@
 
   .section-title {
     font-size: 1.75rem;
+  }
+
+  .area-card {
+    padding: 1.25rem 1rem;
+  }
+
+  .area-title {
+    font-size: 1.12rem;
+  }
+
+  .area-description {
+    font-size: 0.88rem;
   }
 
   .btn {
